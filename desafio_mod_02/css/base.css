@@ -30,6 +30,9 @@ h4{
     border-bottom: 2.5px solid red;
     display: inline;
 }
+h5{
+    margin: 20px 0px 0px 0px;
+}
 .menu {
     width: 15%;
     background-color: rgba(128, 128, 128, 0.062);
@@ -202,7 +205,8 @@ textarea:focus{
     width: 100%;
     background-color: rgba(128, 128, 128, 0.144);
     min-height: 150px;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 .footer li{
     list-style: none;
@@ -214,6 +218,8 @@ textarea:focus{
 .list-footer{
     display: flex;
     align-items: center;
+    padding: 0;
+    margin: 10px 0px;
 }
 /* ICONS */
 .img-logo{
