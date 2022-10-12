@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio's Dor</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Poppins:ital,wght@0,100;0,300;1,100;1,300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="./index.html">Página Principal</a></li>
+                <hr>
+                <li><a href="./sobre.html">Sobre a clínica</a></li>
+                <hr>
+                <li><a href="./horarios.html">Horário de Atendimento</a></li>
+                <hr>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header-contato">
+                <img src="./img/contato.png" alt="atendimento" class="img-atendimento">
+
+                <h1> Contato </h1>
+            </div>
+
+            <div class="content">
+                <h2>Fale conosco</h2>
+                <hr class="divisoria-comum">
+
+                <div class="container-localizacao">
+
+                    <h4>Telefones:</h4>
+                    <div class="container-telefones">
+                        <div class="container-telefones-icon">
+                            <img src="./img/telefone.png" alt="telefone" class="img-redes-sociais" style="margin-right: 4px;">
+                            <p>(21) 9999-9999</p>
+                        </div>
+                        <div class="container-telefones-icon">
+                            <img src="./img/whatsapp.png" alt="whatsapp" class="img-redes-sociais" style="margin-right: 4px;">
+                            <p>(21) 9999-9999</p>
+                        </div>
+                        <div class="container-telefones-icon">
+                            <img src="./img/whatsapp.png" alt="whatsapp" class="img-redes-sociais" style="margin-right: 4px;">
+                            <p>(21) 9999-9999</p>
+                        </div>
+                    </div>
+
+                    <h4>Formulário de contato</h4>
+                    <form action="GET">
+
+                        <fieldset>
+
+                            <div class="dados-principais">
+                                <label for="">Nome</label>
+                                <input type="text" name="usuario_nome" id="nome" placeholder="Nome completo">
+
+                                <label for="">Email</label>
+                                <input type="email" name="usuario_email" id="email" placeholder="seu-email@email.com">
+
+                                <label for="">Assunto</label>
+                                <select name="usuario_assunto" id="Assunto">
+                                    <option value="">Selecione o assunto</option>
+                                    <option value="especialidades">Dúvidas sobre especialidades</option>
+                                    <option value="consultas">Valores de consultas</option>
+                                    <option value="exames">Valores de exames</option>
+                                    <option value="convenios">Convênios</option>
+                                    <option value="cirurgias">Cirurgias</option>
+                                    <option value="outros">Outros</option>
+                                </select>
+
+                                <label for="">Outros</label>
+                                <input type="text" name="usuario_outros" id="outro" placeholder="Digite o assunto">
+
+                                <label for="">Menssagem</label>
+                                <textarea name="mensagem" id="usuario_mensagem" cols="50" rows="8"
+                                    placeholder="Digite aqui sua mensagem"></textarea>
+                            </div>
+
+                            <div class="btn-form">
+                                <button type="submit" id="enviar">Enviar</button>
+                                <button type="reset" id="reset">Limpar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <h4> Nossa localização</h4>
+                    <p style="margin-top:15px ;"><img src="./img/localizacao.png" alt="localizacao" class="img-redes-sociais" style="margin-right: 4px;">Praça Mauá, 1 -
+                        Centro, Rio de Janeiro - RJ, 20081-240</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5093956219575!2d-43.18178988458206!3d-22.894574843192228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5732a12a31%3A0x316901f971660ce1!2sMuseu%20do%20Amanh%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1665528038035!5m2!1spt-BR!2sbr"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer">
+                <h5>Nossas redes sociais</h5>
+                <div class="footer-redes-sociais">
+                    <ul class="list-footer">
+                        <li><a href="#"><img src="./img/facebook.png" alt="Facebook" class="img-redes-sociais"></a></li>
+                        <li><a href="#"><img src="./img/instagram.png" alt="Instagram" class="img-redes-sociais"></a></li>
+                        <li><a href="#"><img src="./img/twitter.png" alt="Twitter" class="img-redes-sociais"></a></li>
+                    </ul>
+    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
