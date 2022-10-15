@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Poppins:ital,wght@0,300;1,100;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2491px;
+    width: 1440px;
+    left: 709px;
+    top: -225px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 1);
+} 
+h1 {
+    width: 434px;
+    height: 47px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+    font-family: 'Raleway';     
+}
+
+/* HEADER */
+.banner{
+    height: 605px;
+    width: 1440px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-bottom: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .6) 0%, rgba(49, 168, 221, .2) 100%, rgba(0, 0, 0, .6) 0%), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    height: 393px;
+    width: 510px;
+    left: 465px;
+    top: 56px;
+}
+.container-header {
+    width: 268px;
+    height: 268px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.banner-content p {
+    width: 510px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color:#FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: 'Raleway';    
+}
+.logo {
+    width: 268px;
+    height: 268px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 268px;
+    border-radius: 0px;
+}
+.banner-content .logo img {
+    position: absolute;
+    width: 248px;
+    height: 214px;
+    left: 131px;
+    top: 27px;
+    border-radius: 0px;
+    background: url(.png);
+}
+.banner-content .logo img{
+    position: absolute;
+    width: 268px;
+    height: 268px;
+    left: 121px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.2);    
+    border-radius: 50%;
+}
+   
+/* FOOTER */
+footer {
+    position: relative;
+    height: 170px;
+    width: 1440px;
+    left: 0px;
+    top: 2321px;
+    border-radius: 0px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+
+
+}
+.dio-logo{
+    position: absolute;
+    height: 44px;
+    width: 310px;
+    left: 565px;
+    top: 59px;
+    border-radius: 0px;
+}
+footer p {
+    position: absolute;
+    width: 259px;
+    height: 19px;
+    left: 591px;
+    top: 113px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(0deg, #33A8DB, #33A8DB);
+    box-sizing: border-box;
+}
