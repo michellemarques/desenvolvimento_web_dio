@@ -1,0 +1,2 @@
+1 - Instalar via node http-server
+2 - Instalar o Normalize.css (cdnjs)
